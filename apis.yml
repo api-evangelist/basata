@@ -1,8 +1,18 @@
 aid: basata
 name: Basata
-description: 'Basata is a company surfaced as a portfolio company of cowboy-ventures and added to the
-  API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: >-
+  Basata is a Phoenix-based healthcare AI company building the operational layer
+  for American medical practices. Its AI agents automate back-office
+  administrative work — processing patient referrals, answering phone calls 24/7,
+  and managing faxes and patient communications — while integrating with existing
+  EHR systems so clinical staff can focus on patient care instead of paperwork.
+  Founded in 2024 by Kaled Alhanafi (CEO, formerly Lyft and Cruise), Chetan Patel
+  (co-founder and president, formerly Medtronic), and Vivin Paliath (co-founder
+  and CTO), Basata raised a $21M Series A led by Basis Set Ventures with Cowboy
+  Ventures and PHX Ventures participating (~$24.5M total). The platform is marketed
+  as fully HIPAA-compliant and the company publishes a SOC 2 attestation. Basata
+  does not currently expose a public developer API or documentation surface; this
+  profile captures its public identity and web properties.
 url: https://raw.githubusercontent.com/api-evangelist/basata/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,15 +20,64 @@ x-backed-by:
 - cowboy-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/67e26595de77ed632a136c2f/683ee6393be8213ea585d88b_9fdb9694391b29f651b119379c6eb5be_Momkai_Basata_OG_Image.jpg
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
-- Unknown
+- Healthcare
+- Artificial Intelligence
+- AI Agents
+- Health IT
+- Medical Practice Administration
+- Voice AI
+- Automation
+- HIPAA
 apis: []
+common:
+- type: Website
+  url: https://www.basata.ai/
+- type: Blog
+  url: https://www.basata.ai/insights
+- type: SignUp
+  name: Request a Demo
+  url: https://www.basata.ai/demo
+- type: PrivacyPolicy
+  url: https://www.basata.ai/privacy-policy
+- type: TermsOfService
+  url: https://www.basata.ai/terms-conditions
+- type: Careers
+  url: https://www.basata.ai/about-team#careers
+- type: Podcast
+  url: https://www.basata.ai/podcast
+- type: LinkedIn
+  url: https://www.linkedin.com/company/basata
+- type: Compliance
+  name: HIPAA compliant; SOC 2 attestation
+  url: https://www.basata.ai/privacy-policy
+- type: Conformance
+  url: conformance/basata-conformance.yml
+- type: DomainSecurity
+  url: security/basata-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

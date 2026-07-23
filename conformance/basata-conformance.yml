@@ -1,0 +1,22 @@
+generated: '2026-07-18'
+method: searched
+source: https://www.basata.ai/
+notes: >-
+  Basata publishes no OpenAPI or developer surface, so cross-cutting API
+  standards (oauth2, rfc9457, pagination, etc.) cannot be derived. The entries
+  below capture the compliance/regulatory posture the company states publicly on
+  its marketing and privacy pages. As a healthcare AI vendor handling PHI, HIPAA
+  is the governing regime.
+standards:
+- id: hipaa
+  conforms: true
+  evidence: >-
+    Homepage states the product "automates your faxes and call center—secure,
+    simple, and fully HIPAA-compliant." An Insights article, "Understanding
+    HIPAA Compliance for AI in Healthcare," documents the posture.
+  source: https://www.basata.ai/
+- id: soc2
+  conforms: true
+  evidence: >-
+    AICPA SOC 2 logo published on the privacy policy page footer.
+  source: https://www.basata.ai/privacy-policy
