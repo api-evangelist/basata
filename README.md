@@ -64,6 +64,84 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Basata is a company surfaced as a portfolio company of cowboy-ventures and added to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead awaiting the enrichment pipeline.
+Basata is a Phoenix-based healthcare AI company building the operational layer for American medical practices. Its AI agents automate back-office administrative work — processing patient referrals, answering phone calls 24/7, and managing faxes and patient communications — while integrating with existing EHR systems so clinical staff can focus on patient care instead of paperwork. Founded in 2024 by Kaled Alhanafi (CEO, formerly Lyft and Cruise), Chetan Patel (co-founder and president, formerly Medtronic), and Vivin Paliath (co-founder and CTO), Basata raised a $21M Series A led by Basis Set Ventures with Cowboy Ventures and PHX Ventures participating (~$24.5M total). The platform is marketed as fully HIPAA-compliant and the company publishes a SOC 2 attestation. Basata does not currently expose a public developer API or documentation surface; this profile captures its public identity and web properties.
 
-Backed by: cowboy-ventures
+**Areas:** Company · Healthcare · Artificial Intelligence · AI Agents · Health IT · Medical Practice Administration · Voice AI · Automation · HIPAA
+
+## Basata on APIs.io
+
+Everything profiled for Basata is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/basata/](https://apis.io/providers/basata/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Basata Domain Security](https://apis.io/security/basata/basata-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.basata.ai/)
+- [Sign up](https://www.basata.ai/demo)
+- [Blog](https://www.basata.ai/insights)
+- [Compliance](https://www.basata.ai/privacy-policy)
+- [Terms of service](https://www.basata.ai/terms-conditions)
+- [Privacy policy](https://www.basata.ai/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 16.7** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 42.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 17.6** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/basata/](https://apis.io/providers/basata/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Basata: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/basata/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
